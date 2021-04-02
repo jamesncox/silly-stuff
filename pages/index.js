@@ -2,14 +2,14 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-green-900">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-green-800">
       <Head>
         <title>SILLY STUFF</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold text-pink-300">
+        <h1 className="text-6xl font-bold text-purple-400">
           Welcome to CAKE TOWN
         </h1>
       </main>
